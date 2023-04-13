@@ -47,6 +47,6 @@ index = GPTSimpleVectorIndex.load_from_disk('index.json')
 
 # Querying the index
 while True:
-    prompt = input("Type prompt...")
+    prompt = input("Type prompt...\n")
     response = index.query(prompt)
     print(response)
